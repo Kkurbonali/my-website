@@ -14,11 +14,6 @@ body {
 
 /* Header Styles */
 header {
-    .logo img {
-    width: 150px; /* Adjust the width to your preference */
-    height: auto; /* Keeps the aspect ratio intact */
-}
-
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -33,6 +28,11 @@ nav {
 .logo {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+header img {
+    width: 200px; /* Adjust this size as needed */
+    height: auto; /* Keep the aspect ratio */
 }
 
 .nav-links {
