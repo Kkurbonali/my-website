@@ -49,27 +49,50 @@ header img {
     text-decoration: none;
 }
 
-/* Hero Section Styles */
+/* Updated Hero Section Styles */
 .hero {
     background: url('images/backgroundimage.png') no-repeat center center/cover;
-    color: #fff;
-    height: 80vh;
+    color: #333;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 0 20px;
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
 }
 
 .cta-btn {
-    background-color: #ff6f61;
+    background-color: #6c5ce7;
     color: #fff;
     padding: 10px 20px;
+    font-size: 1.1em;
     text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #4b4df1;
 }
 
 /* Features Section Styles */
