@@ -26,12 +26,12 @@ nav {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
 
 header img {
-    width: 200px; /* Adjust this size as needed */
+    width: 50px; /* Adjust this size as needed */
     height: auto; /* Keep the aspect ratio */
 }
 
