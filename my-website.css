@@ -51,7 +51,7 @@ header img {
 
 /* Hero Section Styles */
 .hero {
-    background: url('your-image.jpg') no-repeat center center/cover;
+    background: url('images/backgroundimage.png') no-repeat center center/cover;
     color: #fff;
     height: 80vh;
     display: flex;
